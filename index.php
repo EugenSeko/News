@@ -7,6 +7,5 @@ require __DIR__.'/model/News.php';
  * Date: 17.10.2015
  * Time: 10:03
  */
-echo 'die';
 
 header('location: view/index.php');

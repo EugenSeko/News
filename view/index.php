@@ -7,8 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap   -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/style.css" rel="stylesheet">-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,20 +19,54 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-            <header>
-              <h1>Привет!!!</h1>
-            </header>
-            <article  class="row">
-              <p class="col-lg-4">текст тексттекст  тексттекст текст</p>
-              <p class="col-lg-4">текст тексттекс тексттекст тексттекст текст</p>
-              <p class="col-lg-4">текст текстт тексттекст тексттекст текст</p>
-            </article>
+  <div class="container">
+    <div class="row">
+      <h1>Название сайта</h1>
+      <div class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+              <span class="sr-only">Открыть навигацию</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="responsive-menu">
+            <ul class="nav navbar-nav">
+              <li><a href="#">пункт 1</a> </li>
+              <li><a href="#">пункт 2</a> </li>
+              <li><a href="#">пункт 3</a> </li>
+              <li><a href="#">пункт 4</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!--<div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 hidden-md">
+          <div class="row ">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+          </div>
+        </div>
+        <div class="col-lg-3" ></div>
+        <div class="col-lg-3" ></div>
+        <div class="col-lg-3" ></div>
+      </div>
+    </div>-->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-      </div>
+
   </body>
 </html>
